@@ -1,0 +1,15 @@
+langchain
+langchain_community
+langchain_chroma
+langchain-text-splitters
+langchain-core 
+langchain-google-vertexai
+beautifulsoup4
+fastapi[standard]
+uvicorn
+python-multipart
+langchain-google-genai
+unstructured
+unstructured[pdf]
+pypdf
+rapidocr-onnxruntime
