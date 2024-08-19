@@ -13,8 +13,7 @@ from rag_model import *
 
 
 app = FastAPI()
-origins = [
-    "http://localhost:3000",]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,

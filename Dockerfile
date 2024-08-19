@@ -12,4 +12,4 @@ COPY . /app/
 ENV GOOGLE_APPLICATION_CREDENTIALS="/app/keyfile.json"
 EXPOSE 8000
 
-CMD ["uvicorn", "rag:app", "--port", "8000","--host", "0.0.0.0"]
+CMD ["uvicorn", "rag:app", "--port", "9988"]
